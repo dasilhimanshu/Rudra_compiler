@@ -1,0 +1,14 @@
+program calculate (a, b, c, d, e);
+var a, b, c, d, e: integer;
+begin
+a = 10;
+b = 20;
+c = a + b;
+print(c);
+d = b - a;
+print(d);
+e = c * d;
+print(e);
+e = e / 5;
+print(e)
+end.
